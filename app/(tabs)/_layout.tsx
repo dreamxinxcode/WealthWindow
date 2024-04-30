@@ -25,6 +25,12 @@ export default function TabLayout() {
         // Disable the static render of the header on web
         // to prevent a hydration error in React Navigation v6.
         headerShown: useClientOnlyValue(false, true),
+        headerStyle: {
+          backgroundColor: '#0f121b',
+        },
+        tabBarStyle: {
+          backgroundColor: '#0f121b',
+        }
       }}>
       <Tabs.Screen
         name="index"
