@@ -16,4 +16,10 @@ export default {
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
   },
+  bullish: {
+    color: '#25a69a',
+  },
+  bearish: {
+    color: '#ef5350',
+  }
 };
